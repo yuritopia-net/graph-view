@@ -1,0 +1,20 @@
+{
+  "name": "graph-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "LIBRARY_TARGET=web webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sumi.nook",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "ts-loader": "^8.0.13",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.1"
+  }
+}

@@ -1,0 +1,15 @@
+Analogous:
+A: 91F3FF
+B: 84E8D7
+C: 9DFFD3
+D: 84E89F
+E: 94FF91
+
+Monochromatic:
+A:4F806A
+B:52FFB1
+C:9DFFD3
+D:298058
+E:7ECCA9
+
+via https://color.adobe.com/ja/create/color-wheel

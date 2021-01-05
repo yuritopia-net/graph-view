@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Graph View Sandbox</title>
+    <script src="./graphview.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function(){
+  console.log("Graph View Sandbox");
+  const container = document.getElementById("container");
+  const view = new graphview.GraphView(container);
+  window.view = view;
+
+  view.addSimpleElement("Hello", "Hello World!");
+});
+    </script>
+    <style>
+body, #container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+#container {
+  background-color: #ccc;
+}
+
+.graphview-element {
+  border: solid 1px #298058;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.graphview-element .graphview-title {
+  font-weight: bold;
+  font-size: large;
+  border-bottom: solid 1px #7ecca9;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.1em;
+}
+.graphview-element .graphview-body {
+  color: #444;
+  font-size: small;
+}
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
